@@ -1,8 +1,8 @@
 {
     "parserOptions": {
-        "ecmaVersion": 2018
+        "ecmaVersion": 6
     },
-    "extends": ["eslint: recommended", "prettier"],
+    "extends": ["eslint:recommended","airbnb"],
     "env": {
         "es6": true,
         "node": true,

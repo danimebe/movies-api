@@ -1,6 +1,6 @@
 const moviesMock = [{
     "id": "eeed4496-b518-48d1-9208-dfd17a982733",
-    "first_name": "We Cause Scenes",
+    "title": "We Cause Scenes",
     "year": 2007,
     "cover": "http://dummyimage.com/142x158.bmp/ff4444/ffffff",
     "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -16,7 +16,7 @@ const moviesMock = [{
     ]
 }, {
     "id": "a5e2fba9-c299-4c95-b5aa-c1d574349b4e",
-    "first_name": "Babysitting",
+    "title": "Babysitting",
     "year": 1987,
     "cover": "http://dummyimage.com/140x217.bmp/cc0000/ffffff",
     "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -30,7 +30,7 @@ const moviesMock = [{
     ]
 }, {
     "id": "06a6ca21-bbbc-45c4-80c2-39ce41ea98ff",
-    "first_name": "Bridges of Madison County, The",
+    "title": "Bridges of Madison County, The",
     "year": 1992,
     "cover": "http://dummyimage.com/237x117.jpg/dddddd/000000",
     "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -45,7 +45,7 @@ const moviesMock = [{
     ]
 }, {
     "id": "b6781d64-9f9b-438e-bd8f-bd60afd7d39f",
-    "first_name": "Perifery (Härmä)",
+    "title": "Perifery (Härmä)",
     "year": 1995,
     "cover": "http://dummyimage.com/197x203.bmp/ff4444/ffffff",
     "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -58,7 +58,7 @@ const moviesMock = [{
     ]
 }, {
     "id": "a84f22af-aef7-4429-abb8-f8b92a8b9c99",
-    "first_name": "Shall We Dance?",
+    "title": "Shall We Dance?",
     "year": 1986,
     "cover": "http://dummyimage.com/203x199.jpg/5fa2dd/ffffff",
     "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
@@ -70,7 +70,7 @@ const moviesMock = [{
     ]
 }, {
     "id": "6bc44de1-e602-42fb-87a0-c7886c148a5e",
-    "first_name": "Strangeland",
+    "title": "Strangeland",
     "year": 1998,
     "cover": "http://dummyimage.com/112x218.bmp/ff4444/ffffff",
     "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -83,7 +83,7 @@ const moviesMock = [{
     ]
 }, {
     "id": "b5470b13-3118-4adc-8cec-a3ca165e8e3e",
-    "first_name": "Chronicle of the Years of Fire (Chronique des années de braise)",
+    "title": "Chronicle of the Years of Fire (Chronique des années de braise)",
     "year": 2005,
     "cover": "http://dummyimage.com/190x234.jpg/ff4444/ffffff",
     "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -98,7 +98,7 @@ const moviesMock = [{
     ]
 }, {
     "id": "da3cb1ff-ad03-456f-8ad5-84a6f213f725",
-    "first_name": "A Blank on the Map",
+    "title": "A Blank on the Map",
     "year": 2010,
     "cover": "http://dummyimage.com/180x162.bmp/dddddd/000000",
     "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -112,7 +112,7 @@ const moviesMock = [{
     ]
 }, {
     "id": "7961f3a3-a9b9-47e8-91d6-aa8614c64429",
-    "first_name": "Bottle Shock",
+    "title": "Bottle Shock",
     "year": 2005,
     "cover": "http://dummyimage.com/153x201.png/ff4444/ffffff",
     "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -127,7 +127,7 @@ const moviesMock = [{
     ]
 }, {
     "id": "291f4658-6e60-4910-b83b-3c214126314b",
-    "first_name": "Crooked Arrows",
+    "title": "Crooked Arrows",
     "year": 2009,
     "cover": "http://dummyimage.com/212x146.png/dddddd/000000",
     "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -142,6 +142,22 @@ const moviesMock = [{
     ]
 }]
 
+function filteredMoviesMock(tag){
+    return moviesMock.filter(movie => movie.tags.includes(tag));
+}
+
+class MoviesServiceMock {
+    async getMovies() {
+        return Promise.resolve(moviesMock);
+    }
+
+    async createMovie() {
+        return Promise.resolve(moviesMock[0]);
+    }
+}
+
 module.exports = {
-    moviesMock
+    moviesMock,
+    filteredMoviesMock,
+    MoviesServiceMock
 };
